@@ -1,0 +1,27 @@
+/*Generals*/
+
+.debug{
+  background-color: rgba(137, 43, 226, 0.638);
+  border: solid 1px;
+}
+
+
+
+/*Elements*/
+
+header{
+  background-color: aqua;
+  height: 90px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-side{
+  height: 100vh;
+  background-image: url(../img/sidebar-bg.png);
+  background-color: blue;
+}
+
