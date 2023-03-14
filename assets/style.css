@@ -18,6 +18,25 @@
   background-color: #1b72e8;
 }
 
+.width-100{
+  width: 100%;
+}
+
+.p-r-5px{
+  padding-right: 5px;
+}
+
+.p-l-0{
+  padding-left: 0;
+}
+
+.p-l-7{
+  padding-left: 7px;
+}
+
+.nd-gray{
+  color: #5b5858;
+}
 /*Elements*/
 
 header{
@@ -36,3 +55,114 @@ header{
   background-color: black;
 }
 
+.logo-little img{
+  width: 50px;
+}
+
+
+nav-bar{
+  background-color: #e5e5e5;
+}
+
+.navbar i{
+  padding: 0px 5px;
+}
+.nav-bar input::placeholder{
+  padding-left: 15px;
+}
+.search{
+  left: 0;
+}
+
+.utilitys-item{
+  padding: 0 5px;
+}
+
+.fa-solid.fa-bell{
+  color: yellow;
+  padding: 0px 10px;
+}
+
+.ndbutton-small{
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.ndbutton-small span{
+  font-size: small;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 8px;
+  background-color: rgba(0, 0, 0, 0.238);
+  cursor: pointer;
+}
+
+.ndbutton-small span:hover{
+  background-color:rgba(0, 0, 0, 0.434) ;
+}
+
+.next{
+  padding: 0px 5px;
+}
+
+.disappear i{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.238);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*Media query*/
+
+@media screen and (max-width:992px){
+  .disappear{
+    display: block;
+  }
+
+  .appear{
+    display: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .utilitys{
+    display: none;
+  }
+}
+
+@media screen and (min-width:992px){
+  .disappear{
+    display: none;
+  }
+
+
+  .appear{
+    display: flex;
+  }
+
+  .logo-little{
+    display: none;
+  }
+
+  .logo{
+    display:flex;
+  }
+
+  .utilitys{
+    display: flex;
+  }
+}
+
+@media screen and (max-width:1082px) {
+  .different{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1082px) {
+  .different{
+    display: flex;
+  }
+}
