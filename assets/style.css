@@ -21,6 +21,7 @@
 /*Elements*/
 
 header{
+  background-color: white;
   height: 90px;
   position: fixed;
   z-index: 999;
