@@ -5,12 +5,22 @@
   border: solid 1px;
 }
 
+.debug2{
+  background-color: rgba(165, 42, 42, 0.5);
+  border: solid 1px;
+}
 
+.margin-top-90px{
+  margin-top: 90px;
+}
+
+.light-blue{
+  background-color: #1b72e8;
+}
 
 /*Elements*/
 
 header{
-  background-color: aqua;
   height: 90px;
   position: fixed;
   z-index: 999;
@@ -22,6 +32,6 @@ header{
 .left-side{
   height: 100vh;
   background-image: url(../img/sidebar-bg.png);
-  background-color: blue;
+  background-color: black;
 }
 
