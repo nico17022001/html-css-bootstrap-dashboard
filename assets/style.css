@@ -40,15 +40,15 @@
 
 tr{
   width: 100%;
+  border-bottom: solid 1px gray;
 }
 
 td{
-  border-bottom:solid 1px;
   padding: 5px 0px;
 }
 
 td img{
-  width: 30px;
+  width: 20px;
 }
 
 .fs-xsmall{
@@ -67,7 +67,6 @@ header{
 }
 
 .left-side{
-  height: 100vh;
   background-image: url(../img/sidebar-bg.png);
   background-color: black;
 }
@@ -139,13 +138,23 @@ nav-bar{
 table{
   width: 100%;
   background-color: white;
+  border:solid 1px gray;
 }
 
+.tool{
+  padding: 5px;
+  border: 1px gray solid;
+  border-radius: 2.5px;
+  margin-right: 2px;
+}
 
-.main-content{
+.tool i{
+  padding: 0px 5px;
+}
+
+.gray{
   background-color: #f8f9fa;
 }
-
 /*Media query*/
 
 @media screen and (max-width:992px){
