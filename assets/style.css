@@ -37,6 +37,23 @@
 .nd-gray{
   color: #5b5858;
 }
+
+tr{
+  width: 100%;
+}
+
+td{
+  border-bottom:solid 1px;
+  padding: 5px 0px;
+}
+
+td img{
+  width: 30px;
+}
+
+.fs-xsmall{
+  font-size: x-small;
+}
 /*Elements*/
 
 header{
@@ -112,13 +129,26 @@ nav-bar{
   border-radius: 5px;
 }
 
+.table-title{
+  background-color: #f7f7f7;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  border: solid 1px gray;
+}
+
+table{
+  width: 100%;
+  background-color: white;
+}
+
+
+.main-content{
+  background-color: #f8f9fa;
+}
+
 /*Media query*/
 
 @media screen and (max-width:992px){
-  .disappear{
-    display: block;
-  }
-
   .appear{
     display: none;
   }
@@ -155,13 +185,17 @@ nav-bar{
   }
 }
 
-@media screen and (max-width:1082px) {
+@media screen and (max-width:1086px) {
   .different{
     display: none;
   }
+
+  .disappear{
+    display: block;
+  }
 }
 
-@media screen and (min-width:1082px) {
+@media screen and (min-width:1085px) {
   .different{
     display: flex;
   }
