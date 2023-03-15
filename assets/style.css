@@ -67,6 +67,14 @@ td img{
 .border-radius-top-0{
   border-radius: 0px 0px 0px 0px !important;
 }
+
+.menu-cont span{
+  padding-left: 10px;
+}
+
+.f-small{
+  font-size: small;
+}
 /*Elements*/
 
 header{
@@ -188,6 +196,20 @@ tbody tr:hover{
 .ndcontainer{
   padding: 10px;
   background-color: white;
+}
+
+.menu-cont{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-cont:hover{
+  background-color: rgba(255, 255, 255, 0.418);
+}
+
+.nico-container{
+  height: 100vh;
 }
 
 /*Media query*/
